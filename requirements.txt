@@ -1,0 +1,8 @@
+nvim
+packer
+rust-analyzer
+python
+npm
+zig
+clang
+git 
