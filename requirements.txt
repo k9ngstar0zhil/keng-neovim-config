@@ -1,4 +1,5 @@
 nvim
+unzip
 packer
 rust-analyzer
 python
