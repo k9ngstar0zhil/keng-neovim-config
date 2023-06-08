@@ -6,3 +6,5 @@ npm
 zig
 clang
 git 
+awesome-fonts
+nerd-fonts
