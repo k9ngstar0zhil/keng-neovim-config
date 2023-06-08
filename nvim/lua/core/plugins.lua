@@ -16,7 +16,13 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-tree.lua'
   use 'andweeb/presence.nvim'
   use "EdenEast/nightfox.nvim" 
+  -- Packer:
+use 'Mofiqul/adwaita.nvim'
   use 'nvim-lualine/lualine.nvim'
+  use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+}
   use {
   'nvim-telescope/telescope.nvim', tag = '0.1.1',
 -- or                            , branch = '0.1.x',
